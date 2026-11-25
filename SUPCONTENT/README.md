@@ -8,7 +8,9 @@ et échanger par messagerie privée.
 Le projet comprend une application web, une application mobile, une API REST
 et une base de données PostgreSQL.
 
-**Dépôt GitHub :** [https://github.com/sfdhafsa/SupContentProject](https://github.com/sfdhafsa/SupContentProject)
+**Dépôt de l'application :** [supmovies-sre](https://github.com/sfdhafsa/supmovies-sre), la copie contrôlée utilisée pour le projet SRE.
+
+Le projet SRE et sa plateforme de déploiement sont documentés dans [Movies on Distribution](https://github.com/sfdhafsa/movies-on-distribution).
 
 ## Fonctionnalités
 
@@ -80,9 +82,18 @@ Sans Docker :
 
 ### 1. Cloner le dépôt
 
+Sous Windows PowerShell :
+
+```powershell
+git clone https://github.com/sfdhafsa/supmovies-sre.git
+Set-Location .\supmovies-sre\SUPCONTENT
+```
+
+Sous Linux ou macOS :
+
 ```bash
-git clone https://github.com/sfdhafsa/SupContentProject.git
-cd SupContentProject
+git clone https://github.com/sfdhafsa/supmovies-sre.git
+cd supmovies-sre/SUPCONTENT
 ```
 
 ### 2. Configurer l'environnement
